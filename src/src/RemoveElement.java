@@ -1,5 +1,5 @@
 
-import java.util.List;
+
 
 public class RemoveElement {
 
@@ -14,6 +14,11 @@ public class RemoveElement {
         }
 
         return slow ;
+    }
+
+    public static void main(String[] args) {
+        int [] arr = new int[]{3, 2, 2, 3, 5, 3};
+        System.out.println(RemoveElement(arr));
     }
 }
 
